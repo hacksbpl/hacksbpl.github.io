@@ -1,0 +1,45 @@
+{
+    "title": "SPA Framework",
+    "titleTree": "",
+    "href": "/info",
+    "navbar": {
+        "color": "rgba(0, 0, 0, 1)"
+    },
+    "links": {
+        "Home": {
+            "visible": "left",
+            "routing": "/",
+            "directory": "/info/pages/home/",
+            "component": "generic"
+        },
+        "Nested": {
+            "visible": "none",
+            "routing": "/left/nested",
+            "directory": "/info/pages/home/nested/",
+            "component": "generic"
+        },
+        "Left Page": {
+            "visible": "left",
+            "routing": "/left",
+            "directory": "/info/pages/left/",
+            "component": "generic"
+        },
+        "Right Page": {
+            "visible": "right",
+            "routing": "/right",
+            "directory": "/info/pages/right/",
+            "component": "generic"
+        },
+        "Random Link": {
+            "visible": "right",
+            "routing": "https://www.google.com",
+            "component": "link"
+        }
+    },
+    "buttons": {
+        "GitHub": ["success", "link", "https://github.com/shivanmodha"],
+        "Button": ["warning", "link", "https://www.google.com"],
+        "404 Test": ["danger", "link", "/404"]
+    },
+    "default": "Home"
+}
