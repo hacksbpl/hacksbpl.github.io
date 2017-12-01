@@ -1,9 +1,9 @@
 {
   "main.css": "static/css/main.f87f4b36.css",
   "main.css.map": "static/css/main.f87f4b36.css.map",
-  "main.js": "static/js/main.ed09c28e.js",
-  "main.js.map": "static/js/main.ed09c28e.js.map",
-  "static\\media\\background.jpg": "static/media/background.77c85ccc.jpg",
+  "main.js": "static/js/main.51879dde.js",
+  "main.js.map": "static/js/main.51879dde.js.map",
+  "static\\media\\background.jpg": "static/media/background.61ee6ff8.jpg",
   "static\\media\\faq1.jpg": "static/media/faq1.56bf0f63.jpg",
   "static\\media\\faq2.jpg": "static/media/faq2.336046d0.jpg",
   "static\\media\\faq3.jpg": "static/media/faq3.a8ac40f9.jpg",
@@ -13,5 +13,6 @@
   "static\\media\\fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
   "static\\media\\fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
   "static\\media\\fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
-  "static\\media\\logo.png": "static/media/logo.9eb06fa9.png"
+  "static\\media\\logo.png": "static/media/logo.9eb06fa9.png",
+  "static\\media\\sbpl.png": "static/media/sbpl.6a6e4015.png"
 }
