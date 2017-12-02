@@ -8,7 +8,17 @@ window.addEventListener("_event_onSetData", (event) =>
 });
 window.addEventListener("_event_onAppendData", (event) =>
 {
-    firebase.database().ref(event.detail.reference).push().set(event.detail.data);
+    firebase.database().ref(event.detail.reference).push().set(event.detail.data, (err) =>
+    {
+        if (err)
+        {
+            event.detail.onError();
+        }
+        else
+        {
+            event.detail.onComplete();
+        }
+    });
 });
 window.addEventListener("_event_onUpdateData", (event) =>
 {
@@ -24,5 +34,5 @@ window.addEventListener("_event_onGetData", (event) =>
             sent = true;
             event.detail.callback(e.val());
         }
-    }); 
+    });
 });
