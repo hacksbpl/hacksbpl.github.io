@@ -12,6 +12,7 @@ window.addEventListener("_event_onAppendData", (event) =>
     {
         if (err)
         {
+            console.log(err);
             event.detail.onError();
         }
         else
